@@ -39,7 +39,7 @@
 #define kMapboxDefaultLatLonBoundingBox ((RMSphericalTrapezium){ .northEast = { .latitude =  90, .longitude =  180 }, \
                                                                  .southWest = { .latitude = -90, .longitude = -180 } })
 
-#define kMapboxPlaceholderMapID @"examples.map-z2effxa8"
+#define kMapboxPlaceholderMapID @"mapbox.streets"
 
 // constants for the image quality API (see https://www.mapbox.com/developers/api/maps/#format)
 typedef enum : NSUInteger {
